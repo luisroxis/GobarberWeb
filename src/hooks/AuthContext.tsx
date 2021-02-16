@@ -14,7 +14,7 @@ interface SignInCredentials {
 interface AuthContextProps {
   user: object;
   signIn(credentials: SignInCredentials): Promise<void>;
-  singOut(): void;
+  signOut(): void;
 }
 
 const AuthContext = createContext<AuthContextProps>({} as AuthContextProps);
