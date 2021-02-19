@@ -5,7 +5,6 @@ import {
   FiShieldOff,
   FiCheck,
 } from 'react-icons/fi';
-import { clearTimeout } from 'timers';
 import { ToastMessage, useToast } from '../../../hooks/toast';
 import { Container } from './styles';
 
